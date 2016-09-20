@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:   
+      name: demo
+      uri: "http://marconfigserver.cfapps.io"
+      username: config_client
+      password: ${config.password}
+      lable: master
+      enabled: true
+        
