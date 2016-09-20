@@ -1,0 +1,11 @@
+---
+applications:
+- name: ConfigClint
+  memory: 254M
+  instances: 1
+  path: ./build/libs/demo-0.0.1-SNAPSHOT.jar
+  timeout: 180
+
+  env: 
+    CONFIG_PASSWORD: "goru"
+  
